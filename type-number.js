@@ -1,10 +1,8 @@
 // tipo Number
 
-function ganhoPorHora(salario, horasTrabalhadasNoMes) {
+const soma = 10 + 10; //20
+const multiplicacao = 10 * 10; //100
+const subtracao = multiplicacao - 10; //90
+const operacao = (soma + multiplicacao) + subtracao;
 
-    const salarioHora = (salario / horasTrabalhadasNoMes); 
-  
-    return salarioHora;
-  }
-
-ganhoPorHora(3000, 176);
+console.log(subtracao);

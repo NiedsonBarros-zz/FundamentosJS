@@ -1,2 +1,3 @@
-const senha = "minhaSenha123"
-console.log(senha.length) // 13 caracteres
+console.log(null == undefined);
+console.log(null === undefined);
+
