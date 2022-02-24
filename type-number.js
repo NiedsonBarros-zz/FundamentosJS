@@ -1,8 +1,23 @@
 // tipo Number
 
-const soma = 10 + 10; //20
-const multiplicacao = 10 * 10; //100
-const subtracao = multiplicacao - 10; //90
-const operacao = (soma + multiplicacao) + subtracao;
+const meuNumero = 3;
 
-console.log(subtracao);
+const primeiroNumero = 1;
+const segundoNumero = 2;
+
+const operacaoMatematica = primeiroNumero - segundoNumero;
+
+//console.log(operacaoMatematica)
+
+// ponto flutuante
+
+const numeroPontoFlutuante = 3.3;
+const pontoFlutuanteSemZero = .5;
+
+const novaOperacao = primeiroNumero / numeroPontoFlutuante;
+
+console.log(novaOperacao)
+
+// NaN -> Not A Number (não é um número)
+
+const alura = "Alura";
