@@ -21,12 +21,31 @@
 // console.log(pedido)
 
 //Exemplo de código que usa o operador ternário ao invés do IF
-const nome = "Raisa";
-const nomeAnimal = "gato";
-const idade = 0.5;
+// const nome = "Raisa";
+// const nomeAnimal = "gato";
+// const idade = 0.5;
 const idadeLimite = 1;
 const racaoGatoCastrado = "Ração Gato Castrado"
 const racaoGatoFilhote = "Ração Gato Filhote"
 
-const tipoRacao = `${nome}, a racao mais indicada pro seu ${nomeAnimal} é a ${idade >= 1 ? racaoGatoCastrado : racaoGatoFilhote}.`;
-console.log(tipoRacao);
+// const tipoRacao = `${nome}, a racao mais indicada pro seu ${nomeAnimal} é a ${idade >= 1 ? racaoGatoCastrado : racaoGatoFilhote}.`;
+// console.log(tipoRacao);
+
+//function + operador ternário
+// function racao(nome, nomeAnimal, idade){
+//     return `${nome}, a ração mais indicada para ${nomeAnimal} é a ${idade >= `${idadeLimite}` ? racaoGatoCastrado : racaoGatoFilhote}. `;
+// }
+
+//Expressão de função + operador ternário
+// const racao = function(nome, nomeAnimal, idade){
+//     return `${nome}, a ração mais indicada para ${nomeAnimal} é a ${idade >= `${idadeLimite}` ? racaoGatoCastrado : racaoGatoFilhote}. `;
+// }
+
+//Arrow Function + operador ternário
+// const racao = (nome, nomeAnimal, idade) =>{
+//          return `${nome}, a ração mais indicada para ${nomeAnimal} é a ${idade >= `${idadeLimite}` ? racaoGatoCastrado : racaoGatoFilhote}. `;
+// }
+
+// console.log(racao("Raisa", "Gamora", 0.9))
+
+
