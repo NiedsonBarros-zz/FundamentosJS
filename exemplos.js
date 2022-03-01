@@ -20,6 +20,25 @@
 
 // console.log( + largura * + altura); //Para convertre os números posso utilizar tanto Number() quanto apenas o sinal de + ("Mais" "Adição" (Este modo não é muito utilizado))
 
+//Calculo de área com function
+// function calculaArea(largura, altura){
+//     return largura * altura;
+// }
+// console.log(calculaArea(5, 6));
+
+//Calcula área de Retângulo e Triângulo
+
+// let tipo = "triângulo"
+// const calculaArea = (largura, altura) =>{
+//     if(tipo === "retângulo"){
+//         return largura * altura
+//     } else if(tipo === "triângulo"){
+//         return (largura * altura) / 2;
+//     }
+// }
+
+// console.log(calculaArea(5, 6))
+
 // let meuNome = "leonardo";
 // console.log (Number(meuNome));
 // console.log (+ meuNome);
